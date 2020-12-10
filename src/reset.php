@@ -1,4 +1,3 @@
-<!-- /*1904362*/ -->
 <!DOCTYPE HTML>
 <html>
   <head>
@@ -37,9 +36,6 @@ function read_sql($filename) {
 <h2>File reading</h2>
 <?php 
     $db_data = read_sql($db_file);
-
-    // calculate sha1 of data, using this to detect changes
-    // usually used for passwords...
     $db_hash = sha1($db_data);
 ?>
 
@@ -64,11 +60,9 @@ function read_sql($filename) {
 
         echo "<p>trying to connect to the database...</p>";
 
-        // include the database script
         require("database.php");
         $link = connect();
 
-        // run the code
         echo "<p>running sql code...</p>";
         $result = $link->multi_query($db_data);
 
@@ -85,10 +79,8 @@ function read_sql($filename) {
     ?>
     <h3>Results</h3>
     <pre><?php
-            // borrowed from php.net manual.
             do {
 
-                /* store first result set */
                 if ($result = $link->store_result()) {
 
                    while ($row = $result->fetch_assoc()) {

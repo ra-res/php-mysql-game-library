@@ -1,5 +1,3 @@
-<!-- /*1904362*/ -->
-<!-- REFERENCE: https://itch.io/docs/legal/terms -->
 <!DOCTYPE HTML>
 <html>
 <head>

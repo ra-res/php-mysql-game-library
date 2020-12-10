@@ -1,5 +1,4 @@
 <?php
-/*1904362*/
 function gameListContent2($link, $name, $genre){
    
     if ($name == null && $genre == null){

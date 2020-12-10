@@ -1,4 +1,3 @@
-<!-- /*1904362*/ -->
 <nav class = "navbar"> 
    <ul class="ulElementNavbar">
         <div class="navbarmain">

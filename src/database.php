@@ -1,11 +1,11 @@
-<?php /*1904362*/
+<?php 
 
 $db = array();
 
-$db['host'] = "localhost";#"cseemyweb.essex.ac.uk";
-$db['user'] = "root";#"rp19791";
-$db['pass'] = "";#"Xm3765DkbjY1l";
-$db['name'] = "ce154";#"ce154_rp19791";
+$db['host'] = "localhost";
+$db['user'] = "root";
+$db['pass'] = "";
+$db['name'] = "~";
 
 
 function connect(){

@@ -1,4 +1,4 @@
-<?php  /*1904362*/
+<?php 
 
 function isAdmin(){
     if(array_key_exists("loggedin", $_SESSION) && $_SESSION['loggedin'] == TRUE && $_SESSION['admin'] == 1) {

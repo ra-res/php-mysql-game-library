@@ -1,4 +1,3 @@
-<!-- /*1904362*/ -->
 <footer class="footer">
     <div style="margin-left:20%; margin-top:30px; color: white;"><h2> rp's game library </h2> </div>
     <div style="margin-left:3%; margin-right:5%; margin-top:15px;">
